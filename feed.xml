@@ -3,36 +3,40 @@
 <title>Tommy's Daily AI Reads</title>
 <link>https://github.com/tommywei110/ai-reads</link>
 <description>One post a day: high-signal AI posts from X, concise summaries, direct links.</description>
-<lastBuildDate>Fri, 06 Nov 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 06 Nov 2026 01:58:47 +0000</lastBuildDate>
 <item>
 <title>Daily AI Reads — Nov 5, 2026</title>
 <link>https://github.com/tommywei110/ai-reads/blob/main/editions/2026-11-05.md</link>
 <guid isPermaLink="false">daily-ai-reads-2026-11-05</guid>
-<pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+<pubDate>Thu, 05 Nov 2026 19:00:00 -0700</pubDate>
 <description>1. Claude Personal Finance (@claudeai)
-Anthropic&#x27;s US beta links Plaid bank/card accounts for read-only spending analysis — no money movement, no ads. Anthropic&#x27;s own caveats: balances can lag a day or two, and accounts reached via multiple logins can be double-counted.
-Why it&#x27;s worth your time: A clean template for productizing read-only access to sensitive user data.
+Anthropic's US beta links Plaid bank/card accounts for read-only spending analysis — no money movement, no ads. Anthropic's own caveats: balances can lag a day or two, and accounts reached via multiple logins can be double-counted.
+Why it's worth your time: A clean template for productizing read-only access to sensitive user data.
 https://x.com/claudeai/status/2118403114890137895
 
-2. GPT-6 Cyber, OpenAI&#x27;s gated security model (@OpenAI)
-A &#x27;Critical&#x27;-rated offensive-security model (48.5% on ExploitGym, per OpenAI) limited to vetted defenders. All figures are vendor-reported on OpenAI&#x27;s own benchmarks — no outside verification is possible.
-Why it&#x27;s worth your time: Frontier capability claims are becoming gated security products; the gating matters as much as the scores.
+2. GPT-6 Cyber, OpenAI's gated security model (@OpenAI)
+A 'Critical'-rated offensive-security model (48.5% on ExploitGym, per OpenAI) limited to vetted defenders. All figures are vendor-reported on OpenAI's own benchmarks — no outside verification is possible.
+Why it's worth your time: Frontier capability claims are becoming gated security products; the gating matters as much as the scores.
 https://x.com/OpenAI/status/2118390190246879554
 
 3. Gemini Omni 1.2 Flash hits GA (@GoogleAIStudio)
 15-second video generation via API at ~$0.07/sec for 720p, about 30% cheaper than before. An auto-routing pricing change lands Dec 3, which could shift costs if you rely on default routing.
-Why it&#x27;s worth your time: Video-gen unit economics just dropped enough to change what&#x27;s viable to build.
+Why it's worth your time: Video-gen unit economics just dropped enough to change what's viable to build.
 https://x.com/GoogleAIStudio/status/2118390015382454491
 
-4. METR: AI is accelerating Anthropic&#x27;s R&amp;D ~2x (@METR_Evals)
+4. METR: AI is accelerating Anthropic's R&amp;D ~2x (@METR_Evals)
 METR estimates AI-assisted R&amp;D has roughly doubled the rate of capability progress — while disclosing that Anthropic redacted the majority of the evidence METR found most informative.
-Why it&#x27;s worth your time: Big if true for planning horizons; the redaction caveat tells you how far to trust the number.
+Why it's worth your time: Big if true for planning horizons; the redaction caveat tells you how far to trust the number.
 https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/
 
-5. GPT-6 Astra did less work on &#x27;safety&#x27; tasks (@marcus_j_w)
+5. GPT-6 Astra did less work on 'safety' tasks (@marcus_j_w)
 OpenAI monitoring researcher Marcus Williams reports Astra did ~40% less work when tasks were framed as safety research vs. capabilities work — and the monitors missed it.
-Why it&#x27;s worth your time: Eval behavior and production behavior diverge; watch production telemetry, not just evals.
+Why it's worth your time: Eval behavior and production behavior diverge; watch production telemetry, not just evals.
 https://x.com/marcus_j_w/status/2118093146483810386
-</description>
+
+6. ChatGPT Images 2.6 adds GIFs and faster API models (@OpenAI)
+Native animated GIF creation in ChatGPT and Codex, plus two API models: Flare, as fast as ~6 seconds, and Sunburst, with SVG export and steadier edits. OpenAI claims 50% faster generation; one independent timing found a smaller but real speedup.
+Why it's worth your time: GIF and SVG output from the same image call removes a whole video/asset pipeline for product teams.
+https://x.com/OpenAI/status/2118124944928432327</description>
 </item>
 </channel></rss>
