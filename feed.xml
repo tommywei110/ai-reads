@@ -3,7 +3,42 @@
 <title>Tommy's Daily AI Reads</title>
 <link>https://github.com/tommywei110/ai-reads</link>
 <description>One post a day: high-signal AI posts from X, concise summaries, direct links.</description>
-<lastBuildDate>Fri, 06 Nov 2026 01:58:47 +0000</lastBuildDate>
+<lastBuildDate>Sat, 07 Nov 2026 01:58:57 +0000</lastBuildDate>
+<item>
+<title>Daily AI Reads — Nov 6, 2026</title>
+<link>https://github.com/tommywei110/ai-reads/blob/main/editions/2026-11-06.md</link>
+<guid isPermaLink="false">daily-ai-reads-2026-11-06</guid>
+<pubDate>Fri, 06 Nov 2026 19:00:00 -0700</pubDate>
+<description>1. Inkling 2 Small, Thinking Machines' second-gen model (@thinkymachines)
+A 594B-parameter MoE with 17B active scores 31 on the Artificial Analysis Intelligence Index, up from 12 for the first Inkling, and is live on Tinker at $0.30/$1.00 per million tokens — but the Apache 2.0 weights are still a week away pending safety testing, and it burns ~5x the output tokens per task to get that score.
+Why it's worth your time: The open-weights crown is being decided by release timing as much as scores; a smaller, cheaper model at 31 changes what a self-hosted agent stack can do.
+https://fourweekmba.com/ai-muratis-inkling-2-small-scores-31-output-price-down-75/
+
+2. Perplexity Teammates: always-on agents behind a $200/mo gate (@AravSrinivas)
+Perplexity's Teammates own ongoing work across Slack, GitHub, and connected tools, built on Perplexity Computer with Claude Opus 5.5 by default — but it's a research preview for individual Max subscribers only, and there are no named customer results yet.
+Why it's worth your time: The pitch shifts from answering prompts to owning a job; the price and credit burn decide whether that's real or a demo.
+https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work
+
+3. Tencent Hy4: vision and computer use, weights still missing (Tencent Hy)
+The full Hy4 adds image understanding and computer use, live via Tencent Cloud and OpenRouter at ~$0.90/$2.70 per million tokens — but unlike the August preview, this release ships no weights, model card, or license, and the Hugging Face page returned a 401.
+Why it's worth your time: "Top-tier open model" is a promise, not a download, until the weights land — watch the repo, not the press release.
+https://www.digitalapplied.com/blog/tencent-hy4-release-what-is-confirmed
+
+4. Ripple-65B: a $32M open model that punches above its weight (Ricursive Intelligence)
+A 65B dense model under Apache 2.0 scores 80.5 on Terminal-Bench 2.1, edging 501B rivals, for a claimed $32M total R&amp;D cost — but every number is Ricursive's own, it trails on SWE-bench Verified and tool use, and OpenRouter lists only 16K context vs. the advertised 1M.
+Why it's worth your time: A self-hostable coding model on one box at $0.20/$0.60 per million tokens is the practical story; the benchmark crown is the marketing one.
+https://www.eesel.ai/blog/ripple-65b-review
+
+5. NVIDIA's Cosmos 3 Nano: open world models for driving and robots (NVIDIA)
+Four 16B open-weight checkpoints generate synchronized multi-view driving video plus LiDAR, and turn simulator controls into photorealistic video for robots, under the OpenMDW1.1 commercial license — but they need NVIDIA hardware and a sim runtime, and NVIDIA itself says real-world transfer is still unmeasured.
+Why it's worth your time: Synthetic multi-sensor data is the cheapest way to scale AV and robotics training data; these checkpoints make it a download instead of a research project.
+https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation
+
+6. Salesforce Koa Decisions: the small model that routes the agent (Salesforce)
+A decision model built on Gemma that reads text, images, and audio and returns a classification, yes/no, or score in ~0.5s at 85.5% accuracy on production intent routing — Salesforce claims ~7.5x faster than frontier models, though that's on its own benchmark under its own serving setup.
+Why it's worth your time: Agent stacks are splitting into a cheap router plus a big reasoner; the router is where the latency and cost actually live.
+https://www.unite.ai/salesforce-introduces-koa-decisions-with-image-and-audio-support/</description>
+</item>
 <item>
 <title>Daily AI Reads — Nov 5, 2026</title>
 <link>https://github.com/tommywei110/ai-reads/blob/main/editions/2026-11-05.md</link>
