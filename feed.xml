@@ -3,7 +3,42 @@
 <title>Tommy's Daily AI Reads</title>
 <link>https://github.com/tommywei110/ai-reads</link>
 <description>One post a day: high-signal AI posts from X, concise summaries, direct links.</description>
-<lastBuildDate>Sun, 08 Nov 2026 01:57:49 +0000</lastBuildDate>
+<lastBuildDate>Mon, 09 Nov 2026 01:58:10 +0000</lastBuildDate>
+<item>
+<title>Daily AI Reads — Nov 8, 2026</title>
+<link>https://github.com/tommywei110/ai-reads/blob/main/editions/2026-11-08.md</link>
+<guid isPermaLink="false">daily-ai-reads-2026-11-08</guid>
+<pubDate>Sun, 08 Nov 2026 19:00:00 -0700</pubDate>
+<description>1. DeepMind's AI agents found two weaknesses in legacy RSA-1024 (@GoogleDeepMind)
+Human-guided agents found a signature-forgery shortcut (~1,600× theoretical improvement for short fingerprints) and a batch-factoring method ~30× cheaper per extra key — but both target retired 1024-bit keys, 2048-bit and larger keys are unaffected, neither paper is peer-reviewed, and the factoring method has no implementation yet.
+Why it's worth your time: AI-assisted cryptanalysis just got a real, measured result — and the "legacy keys still in old hardware" part is the actual risk to check.
+https://www.datastudios.org/post/google-deepmind-ai-agents-two-weaknesses-legacy-1024-bit-rsa
+
+2. Amazon lets you text Alexa to shop — after blocking Muse (TechCrunch)
+Amazon is rolling out text-message shopping with Alexa to invited U.S. customers ahead of the holidays, months after blocking Meta's Muse from its store — and DoorDash reported third-party agents placed only hundreds of orders, so it's building its own text agent too.
+Why it's worth your time: The biggest storefront just stated its position by action — outside agents don't get in, but its own agent gets your text thread.
+https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/
+
+3. Claude Code 2.1.319 backgrounds long MCP jobs — and can deny instead of asking (@Anthropic)
+MCP tool calls run as tasks now move to the background instead of freezing the session, and a new permissions.denyInsteadOfPrompting setting lets unattended runs skip unapproved calls and keep working — plus fixes for a Bash permission bypass and a sandbox escape.
+Why it's worth your time: Deny-and-continue is the safe failure mode for overnight and CI agent runs — turn it on before your next unattended job.
+https://releasebot.io/updates/anthropic/claude-code
+
+4. Google's ADK 2.14 graduates agent-to-agent communication to stable (Google)
+Execution environments, A2A integration, evaluation, and core runtime modules (26 modules, 16 toolset features) move from experimental to stable, with a Teams runner, multi-run evals, and a CLI that generates agent cards — though Google's "23% faster, 9% lower memory" claim ships with no baseline or hardware to check it against.
+Why it's worth your time: Cross-agent handoffs now have a stable API to build on — pin 2.14 and move experimental A2A code onto it while the migration is small.
+https://github.com/google/adk-python/releases/tag/v2.14.0
+
+5. OpenAI hired Hacktron — the firm that breached it — to test third-party connections (@OpenAI)
+Hacktron chained two flaws in July (RCE in the community forum's image processing plus a single-sign-on issue) to reach employees' ChatGPT accounts and a connected GitHub integration, stopping at a harmless pull request; OpenAI fixed it in ~14 hours, paid a $6,500 bounty, and now gives the firm Daybreak Red access to probe its integrations.
+Why it's worth your time: The breach came through the seams between systems, not the model — audit your own agents' connected apps the same way.
+https://www.unite.ai/openai-partners-with-hacktron-to-test-third-party-service-connections/
+
+6. GPT-6 Astra edited a model's weights by hand — and the headline overreaches (MIT CSAIL)
+Astra changed 0.016% of Qwen3.5-0.8B's weights with no gradient descent, lifting MATH-500 from 7.9% to 48.1% — but most of the gain came from fixing a known looping bug, the "raw weights, no tools" setting only ran on tiny networks, and an independent re-run scored 51.0%, not 48.1%.
+Why it's worth your time: Editing weights like code is a genuinely new maintenance primitive — just don't read it as "models can now fix themselves."
+https://letsdatascience.com/blog/gpt-6-astra-edited-0-016-percent-qwen-weights-math-sixfold</description>
+</item>
 <item>
 <title>Daily AI Reads — Nov 7, 2026</title>
 <link>https://github.com/tommywei110/ai-reads/blob/main/editions/2026-11-07.md</link>
